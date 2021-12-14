@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What Is Cybersecurity</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="other-pages">
+      <nav>
+        <a href="/index.html" class="logo">Ọmọ́rìnsọ́lá</a>
+        <ul class="navlinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="index.html#blog">Blog</a></li>
+          <li><a href="index.html#footer">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="cyber-container">
+      <!-- <nav class="header-logo">
+        <a href="/index.html" class="logo"> Ọmọ́rìnsọ́lá </a>
+      </nav> -->
+      <div class="blog-content">
+        <div class="cyber-title">Access Control</div>
+        <div class="blog-name">Posted By Oluwaferanmi Olatunji</div>
+        <div class="blog-paragraph">
+          Access control is a fundamental component of data security that
+          dictates who’s allowed to access and use company information and
+          resources. Through authentication and authorization, access control
+          policies make sure users are who they say they are and that they have
+          appropriate access to company data. Access control can also be applied
+          to limit physical access to campuses, buildings, rooms, and
+          datacenters.
+
+          <div class="blog-paragraph">
+            Access Control Models
+            <ul class="blog-list">
+              <li>
+                Discretionary access control (DAC): In this method, the owner or
+                administrator of the protected system, data, or resource sets
+                the policies for who is allowed access. It is a type of access
+                control system that assigns access rights based on rules
+                specified by users. The principle behind DAC is that subjects
+                can determine who has access to their objects. The DAC model
+                takes advantage of using access control lists (ACLs) and
+                capability tables. Capability tables contain rows with ‘subject’
+                and columns containing ‘object’. The security kernel within the
+                operating system checks the tables to determine if access is
+                allowed. Sometimes a subject/program may only have access to
+                read a file; the security kernel makes sure no unauthorized
+                changes occur.
+              </li>
+              <li class="blog-paragraph">
+                Role-Based Access Control (RBAC) –RBAC grants access based on
+                defined business functions rather than the individual user’s
+                identity. The goal is to provide users with access only to data
+                that’s been deemed necessary for their roles within the
+                organization. This widely used method is based on a complex
+                combination of role assignments, authorizations, and
+                permissions. It presents an opportunity for the organization to
+                address the principle of ‘least privilege’. This gives an
+                individual only the access needed to do their job, since access
+                is connected to their job.
+              </li>
+              <li class="blog-paragraph">
+                Mandatory Access Control (MAC) –In this nondiscretionary model,
+                people are granted access based on an information clearance. A
+                central authority regulates access rights based on different
+                security levels. This model is common in government and military
+                environments. The design and implementation of MAC is commonly
+                used by the government. It uses a hierarchical approach to
+                control access to files/resources. Under a MAC environment,
+                access to resource objects is controlled by the settings defined
+                by a system administrator.
+                <br /><br />
+                This means access to resource objects is controlled by the
+                operating system based on what the system administrator
+                configured in the settings. It is not possible for users to
+                change access control of a resource. MAC uses “security labels”
+                to assign resource objects on a system. There are two pieces of
+                information connected to these security labels: classification
+                (high, medium, low) and category (specific department or project
+                – provides “need to know”). Each user account is also assigned
+                classification and category properties. This system provides
+                users access to an object if both properties match. If a user
+                has high classification but is not part of the category of the
+                object, then the user cannot access the object. MAC is the most
+                secure access control but requires a considerable amount of
+                planning and requires a high system management due to the
+                constant updating of objects and account labels. Considered the
+                strictest of all levels of access control systems
+              </li>
+              <li class="blog-paragraph">
+                Attribute-based access control (ABAC): In this dynamic method,
+                access is based on a set of attributes and environmental
+                conditions, such as time of day and location, assigned to both
+                users and resources.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="blog-buttons">
+          <input type="button" value="Related Topics" />
+          <a href="/index.html"><input type="button" value="Homepage" /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Owasp Top 10 Security Risk</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cyber-container">
+      <header class="other-pages">
+        <nav>
+          <a href="/index.html" class="logo">Ọmọ́rìnsọ́lá</a>
+          <ul class="navlinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="index.html#blog">Blog</a></li>
+            <li><a href="index.html#footer">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+      <div class="blog-content">
+        <div class="cyber-title">Owasp Top 10 Security Risk</div>
+        <div class="blog-name">Posted By Oluwaferanmi Olatunji</div>
+        <div class="blog-paragraph">
+          OWASP Top 10 - The Open Web Application Security Project, is an NGO
+          aimed at improving the security of software applications. OWASP top 10
+          is a standard awareness document for developers and web application
+          security.
+
+          <ul class="blog-paragraph">
+            Owasp Top 10 Security Risk
+            <li>
+              Broken Access Control - May occur when access is breached by
+              unauthorized users <br />
+              Prevention <br />
+              Except for public resources, deny by default. <br />
+              Implement access control mechanisms once and re-use them
+              throughout the application. <br />
+              Log access control failures, alert admins when appropriate
+            </li>
+            <li>
+              Cryptographic Failures - Occurs when sensitive date e.g credit
+              cards, passwords are not properly encrypted.<br />
+
+              Prevention<br />
+              Don't store sensitive data unnecessarily. Make sure to encrypt all
+              sensitive data at rest. <br />
+              Disable caching for responses that contain sensitive data. <br />
+              Apply required security controls as per the data classification.
+            </li>
+            <li>
+              Injection - A vulnerability that allows attackers to get data in a
+              malicious way from an app <br />
+
+              Prevention<br />
+              Use positive server-side input validation. <br />
+              Use a safe API, which avoids using the interpreter entirely.
+            </li>
+            <li>
+              Insecure Design - When Secure Development Life Cycle is not
+              thoroughly followed in the development process, it may threaten
+              the app’s security. <br />
+
+              Prevention<br />
+              Create and use a secure development lifecycle that obeys design
+              security and privacy-related controls <br />
+              Integrate security language and controls into user stories <br />
+            </li>
+            <li>
+              Security Misconfiguration - The software may be vulnerable if
+              unnecessary features are installed, software is out of date,
+              misconfigured permission on cloud services<br />
+
+              Prevention<br />
+              Regular review to check and update configurations <br />
+              Remove unused dependencies / unnecessary features
+            </li>
+            <li>
+              Vulnerable And Outdated Components - A software may be vulnerable
+              if software developers do not test it regularly, check the
+              compatibility of updated or patched libraries <br />
+
+              Prevention <br />
+              Remove unused dependencies / unnecessary features <br />
+              Only obtain components from official sources over secure links
+            </li>
+            <li>
+              Identification And Authentication Failures - Occurs when there is
+              an authentication weakness.<br />
+
+              Prevention<br />
+              Implement weak password checks, such as testing new or changed
+              passwords against the top 10,000 worst passwords list.<br />
+              Use a server-side, secure, built-in session manager that generates
+              a new random session ID with high entropy after login. <br />
+              Where possible, implement multi-factor authentication to prevent
+              automated credential stuffing, brute force, and stolen credential
+              reuse attacks.
+            </li>
+
+            <li>
+              Software And Data Integrity Failures - This occurs when there is a
+              breach in the integrity of software or data <br />
+              Prevention<br />
+              Use hashing / digital to protect software’s integrity<br />
+              Ensure code is reviewed before deployment
+            </li>
+            <li>
+              Security Logging And Monitoring Failures - Without logging and
+              monitoring, breaches cannot be detected. Insufficient logging,
+              detection, monitoring, and active response occurs any time: <br />
+              Logs of applications and APIs are not monitored regularly <br />
+              Logs are only stored locally <br />
+              Prevention - Developes should ensure ; <br />
+              Ensure that logs are generated in a format that log management
+              solutions can easily consume. <br />
+              Ensure log data is encoded correctly to prevent injections or
+              attacks on the logging or monitoring systems.
+            </li>
+
+            <li>
+              Server Side Request Forgery - this occurs whenever a web
+              application is fetching a remote resource without validating the
+              user-supplied URL. <br />
+
+              Prevention <br />
+              Ensure thorough validation before authentication <br />
+              Do not send raw responses to clients <br />
+              Disable HTTP redirections <br />
+              Don't deploy other security relevant services on front systems
+            </li>
+          </ul>
+        </div>
+        <div class="blog-buttons">
+          <input type="button" value="Related Topics" />
+          <a href="/index.html"><input type="button" value="Homepage" /></a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
